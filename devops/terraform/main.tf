@@ -12,8 +12,6 @@ resource "azurerm_resource_group" "mgmt" {
   location = var.location
 
   tags = {
-    project = "Azure Trusted Research Environment"
-    source  = "https://github.com/microsoft/AzureTRE/"
     Environment = "Prod"
   }
 
